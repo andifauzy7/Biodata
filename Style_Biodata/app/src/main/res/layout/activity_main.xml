@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="425px"
+        android:src="@drawable/cover" />
+
+    <ImageView
+        android:layout_width="350px"
+        android:layout_height="775px"
+        android:layout_marginStart="100px"
+        android:src="@drawable/avatar"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:layout_width="335px"
+        android:layout_height="55px"
+        android:layout_marginLeft="470px"
+        android:layout_marginTop="430px"
+        android:text="andifauzy7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="335px"
+        android:layout_height="55px"
+        android:layout_marginLeft="470px"
+        android:layout_marginTop="480px"
+        android:text="online"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="491px"
+        android:layout_marginBottom="528px"
+        android:src="@drawable/block"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="335px"
+        android:layout_height="500px"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Name\nBirth Date\nGender\nAddress\nPhone Number\nEmail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634" />
+
+    <TextView
+        android:layout_width="600px"
+        android:layout_height="500px"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:text=": Andi Fauzy Dewantara\n: 11 January 2000\n: Male\n: Ciwastra, Bandung\n: +6285322677320\n: andi.fauzy.tif18@polban.ac.id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="140px"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/help"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="140px"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/lang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
